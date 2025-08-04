@@ -6,5 +6,6 @@ const count = (a) => {
   }
 }
 
-const result = count(1)(2)(4)
+const fast = count(10)
+const result = fast(8)(2)
 console.log(result);
